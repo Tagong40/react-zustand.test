@@ -5,8 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: width 2s;
+
+
+
+
 }
 
+.dark{
+  background: black;
+  color: white;
+  transition-timing-function: linear;
+
+
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
